@@ -4,8 +4,8 @@ La base de données a été nourrie grâce au fichier seed.rb et à la commande 
 
 Vous trouverez cinq profils enregistrés. Choisissez en un pour vous login.
 
-email: 'mjordan@chicagobulls.com', password: 'nikeair'
-email: 'tigerwoods@golf.com', password: 'fairway'
-email: 'tombrady@nfl.com', password: 'superbowl'
-email: 'donald@trump.com', password: 'america'
-email: 'zinedine@zidane.fr', password: 'zizzzou'
+- email: 'mjordan@chicagobulls.com', password: 'nikeair'
+- email: 'tigerwoods@golf.com', password: 'fairway'
+- email: 'tombrady@nfl.com', password: 'superbowl'
+- email: 'donald@trump.com', password: 'america'
+- email: 'zinedine@zidane.fr', password: 'zizzzou'
