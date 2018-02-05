@@ -1,0 +1,22 @@
+<h1>Modifier le User</h1>
+
+<%= form_with model: @user, local: true do |form| %>
+
+  <p>
+    <%= form.label :email %><br>
+    <%= form.text_field :email %>
+  </p>
+
+  <p>
+    <%= form.label :password %><br>
+    <%= form.text_area :password %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+
+<% end %>
+
+
+<%= link_to 'Back', users_path %>

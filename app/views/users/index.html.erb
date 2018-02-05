@@ -1,0 +1,28 @@
+<h1>Index des users enregistrés</h1>
+<p>Bienvenue sur mon app</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Email</th>
+      <th>Password digest</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+      	<td><%= user.id %></td>
+        <td><%= user.email %></td>
+        <td><%= user.password_digest %></td>
+        <td><%= link_to 'Show', user %></td>
+        <td><%= link_to 'Edit', edit_user_path(user) %></td>
+        <td><%= link_to 'Delete', user, method: :delete %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<div><%= link_to"New user",new_user_path %></div>
