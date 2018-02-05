@@ -1,24 +1,11 @@
-# README
+# Quelques informations utiles avant d'aller sur mon app The secret of the Universe ;)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+La base de données a été nourrie grâce au fichier seed.rb et à la commande rake db:seed (et heroku run rake db:seed).
 
-Things you may want to cover:
+Vous trouverez cinq profils enregistrés. Choisissez en un pour vous login.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+email: 'mjordan@chicagobulls.com', password: 'nikeair'
+email: 'tigerwoods@golf.com', password: 'fairway'
+email: 'tombrady@nfl.com', password: 'superbowl'
+email: 'donald@trump.com', password: 'america'
+email: 'zinedine@zidane.fr', password: 'zizzzou'
