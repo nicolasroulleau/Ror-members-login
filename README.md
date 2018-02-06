@@ -9,3 +9,5 @@ Vous trouverez cinq profils enregistrés. Choisissez en un pour vous login.
 - email: 'tombrady@nfl.com', password: 'superbowl'
 - email: 'donald@trump.com', password: 'america'
 - email: 'zinedine@zidane.fr', password: 'zizzzou'
+
+L'app est accessible sur Heroku en cliquant sur le lien suivant: https://frozen-waters-73983.herokuapp.com/
