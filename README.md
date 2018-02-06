@@ -11,3 +11,5 @@ Vous trouverez cinq profils enregistrés. Choisissez en un pour vous login.
 - email: 'zinedine@zidane.fr', password: 'zizzzou'
 
 L'app est accessible sur Heroku en cliquant sur le lien suivant: https://frozen-waters-73983.herokuapp.com/
+
+Si tu veux tester en local, download ce repo, fait un bundle install --without production et un rails db:migrate, et pense à mettre en route ton serveur (rails s).
